@@ -40,7 +40,7 @@ function App() {
             onSubmit={(e) => {
               e.preventDefault();
               convert()
-                
+              console.log(typeof amount);
             }}
           >
             <div className="w-full mb-1">
